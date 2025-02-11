@@ -21,15 +21,11 @@ The **Sales Data Analysis** project is a Power BI dashboard designed to help bus
 - **Most Profitable Products:** Highlighting high-margin products that drive revenue.
 - **Underperforming Products:** Products with low sales volume and profit margins, helping businesses optimize inventory.
 
-![Product Performance Analysis](Assets/2.Top&Bottom%205%20Analysis.png)
-
 ### **2. Sales Trends Analysis**
 
 - **Monthly & Quarterly Sales Trends:** Clear patterns in revenue fluctuations over time.
 - **Seasonal Sales Impact:** Identified peak sales periods and seasonal buying behavior.
 - **Day-of-Week Trends:** Determined which days drive the most revenue, optimizing marketing efforts.
-
-![Sales Trends Analysis](Assets/3.Comparison%20Sales&Profit.png)
 
 ### **3. Revenue & Profitability Metrics**
 
@@ -54,8 +50,6 @@ The **Sales Data Analysis** project is a Power BI dashboard designed to help bus
 - **Top Performing Locations:** Cities/regions with the highest sales contributions.
 - **Low-Performing Areas:** Identified underperforming locations and potential reasons (demographics, competition, etc.).
 - **Geo-Heat Map Visualization:** Used Power BI maps to visually display revenue distribution.
-
-![Regional Sales Analysis](Assets/1.Overview.png)
 
 ## 📚 Dataset Overview
 
@@ -93,7 +87,17 @@ Total Profit = CALCULATE(SUM('Fact Table'[Profit]), ALL('Date Table 1'), USERELA
 
 ## 🎨 Dashboard Screenshots
 
-![Table Visual](Assets/4.Table%20Visual.png)
+### 1. Overview
+![Overview](PowerbI%20project%20(Sales%20Analysis)/Assets/1.Overview.png)
+
+### 2. Top & Bottom 5 Analysis
+![Top & Bottom 5 Analysis](PowerbI%20project%20(Sales%20Analysis)/Assets/2.Top&Bottom%205%20Analysis.png)
+
+### 3. Sales & Profit Comparison
+![Sales & Profit Comparison](PowerbI%20project%20(Sales%20Analysis)/Assets/3.Comparison%20Sales&Profit.png)
+
+### 4. Table Visual
+![Table Visual](PowerbI%20project%20(Sales%20Analysis)/Assets/4.Table%20Visual.png)
 
 ## 🏆 Future Improvements
 
@@ -101,5 +105,4 @@ Total Profit = CALCULATE(SUM('Fact Table'[Profit]), ALL('Date Table 1'), USERELA
 - Enhance **predictive analytics** using machine learning for sales forecasting.
 - Optimize **DAX calculations** for better performance and faster report loading.
 - Develop **automated alerts** for unusual sales trends or stock shortages.
-
 
